@@ -1,5 +1,4 @@
 function [output] = simulatie_versnelling(I0, v0)
-close all;
 lijst_t = []; 
 lijst_v = []; 
 lijst_a = []; 
@@ -19,13 +18,13 @@ for i = 0:dt:60
    lijst_emk = [lijst_emk emk(v)];
 end
 figure(1);
-plot(lijst_t, lijst_v, 'r'); 
+plot(lijst_t, lijst_v); 
 figure(2);
-plot(lijst_t, lijst_a, 'b'); 
+plot(lijst_t, lijst_a); 
 figure(3);
-plot(lijst_t, lijst_stroom, 'g'); 
+plot(lijst_t, lijst_stroom); 
 figure(4);
-plot(lijst_t, lijst_emk, 'y'); 
+plot(lijst_t, lijst_emk); 
 hold(); 
 end
 

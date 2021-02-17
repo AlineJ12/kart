@@ -1,4 +1,4 @@
-function [out] = simulatie_stroom(v)
+function [out] = simulatie_stroom_emk(v)
 %topsnelheid = 63.8412 km/h indien U = 48V
 U = 48;
 R = 0.0225;
