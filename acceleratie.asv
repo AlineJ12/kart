@@ -1,0 +1,10 @@
+function [a] = acceleratie(Ia, v)
+Fmot = motorkracht(Ia);
+Frol = rolweerstandskracht();
+Flucht = luchtweerstandskracht(v);
+M = 180; 
+a = (Fmot - Frol - Flucht)/M; 
+for i = 1:0.05:5
+    
+end
+
