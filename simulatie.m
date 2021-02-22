@@ -1,5 +1,5 @@
 function [out] = simulatie(I0, v0)
-close all;
+%topsnelheid = 63.8412 km/h indien U = 48Vclose all;
 lijst_t = []; 
 lijst_v = []; 
 lijst_a = []; 
