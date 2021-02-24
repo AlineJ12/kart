@@ -7,8 +7,10 @@ Ia = (U - emk(v))/R;
 if Ia > 400
     Ia = 400; 
 end
+
 if Ia < 0
     Ia = 0;
 end
+
 end 
 
