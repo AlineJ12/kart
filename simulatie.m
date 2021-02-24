@@ -1,5 +1,6 @@
-function [out] = simulatie(I0, v0)
-%topsnelheid = 63.8412 km/h indien U = 48Vclose all;
+function [] = simulatie(I0, v0)
+%topsnelheid = 63.8412 km/h indien U = 48V
+close all;
 lijst_t = []; 
 lijst_v = []; 
 lijst_a = []; 
@@ -35,7 +36,7 @@ ylabel('versnelling (m/s²)');
 grid;
 
 subplot(2,3,3);
-plot(lijst_t, lijst_I, 'g'); 
+plot(lijst_t, lijst_I, 'k'); 
 title('stroom ifv tijd');
 xlabel('tijd (s)');
 ylabel('stroom (A)');

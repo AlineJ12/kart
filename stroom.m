@@ -4,7 +4,6 @@ U = 48;
 R = 0.0225;
 Ia = (U - emk(v))/R;
 
-
 if Ia > 400
     Ia = 400; 
 end
