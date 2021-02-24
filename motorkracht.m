@@ -1,4 +1,5 @@
 function [Fwiel] = motorkracht(Ia)
+% kracht die de motor levert aan de wielen
 rwiel = 0.14; 
 Mmotor = koppel(Ia);
 T_wiel = 30;

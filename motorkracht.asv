@@ -1,9 +1,0 @@
-function [Fwiel] = motorkracht(Ia)
-rwiel = 0.14; 
-Mmotor = koppel(Ia);
-T_wiel = 30;
-T_motor = 14;
-Mwiel = Mmotor * (T_wiel/T_motor); 
-Fmot = T_as/T_motor * Mwiel;
-end
-
