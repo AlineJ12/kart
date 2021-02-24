@@ -3,7 +3,7 @@
 
 #include "SpanningsLezer.h" 
 
-  SpanningsLezer battery1(A0); 
+  //SpanningsLezer battery1(A0); 
   SpanningsLezer battery2(A1); 
   SpanningsLezer battery3(A2); 
   SpanningsLezer battery4(A3); 
@@ -13,7 +13,7 @@ void setup() {
 }
  
 void loop() {
-  battery1.SpanningMeten(10);
+  //battery1.SpanningMeten(10);
   battery2.SpanningMeten(10);
   battery3.SpanningMeten(10);
   battery4.SpanningMeten(10);
